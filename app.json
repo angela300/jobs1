@@ -8,6 +8,17 @@
       "expo-router"
     ],
     "name": "react_native_jobs",
-    "slug": "react_native_jobs"
+    "slug": "react_native_jobs",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5a216487-7392-41cb-9dcf-f079e0c6ccc1"
+      }
+    },
+    "android": {
+      "package": "app.ridebeep.App"
+    }
   }
 }
