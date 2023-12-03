@@ -1,5 +1,6 @@
 # A mobile app displaying jobs: Accessible on: 
 Web: https://melodic-phoenix-0ef853.netlify.app/
+
 Mobile download (Android, make sure to have Expo go installed): https://expo.dev/artifacts/eas/cNWuxbVWCYRc2FVZuPMCZJ.aab
 
 # Expo Router Example
