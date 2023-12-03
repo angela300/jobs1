@@ -1,9 +1,12 @@
 {
+  "home": "https://angela300.github.io/jobs1",
   "name": "react_native_jobs",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "expo start",
+    "predeploy": "npm run build",
+    "build": "npx expo export",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
@@ -14,7 +17,7 @@
     "expo-constants": "~14.4.2",
     "expo-font": "^11.6.0",
     "expo-linking": "~5.0.2",
-    "expo-router": "2.0.0",
+    "expo-router": "^2.0.14",
     "expo-splash-screen": "~0.20.4",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
@@ -29,7 +32,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
-    "@babel/plugin-proposal-export-namespace-from": "^7.18.9"
+    "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
+    "gh-pages": "^6.1.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   },
   "resolutions": {
     "metro": "^0.73.7",
